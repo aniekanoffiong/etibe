@@ -6,6 +6,8 @@ use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Ramsey\Uuid\Uuid;
+use Ramsey\Uuid\Exception\UnsatisfiedDependencyException;
 
 class RegisterController extends Controller
 {
@@ -63,6 +65,7 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
+            'id' => Uuid::uuid5(Uuid::NAMESPACE_DNS, str_random(20))->toString(),
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),

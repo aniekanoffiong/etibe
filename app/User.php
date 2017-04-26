@@ -28,17 +28,17 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-	
+
 	public $incrementing = false;
-	
+
 	public function group()
 	{
 		return $this->belongsToMany('Group');
 	}
-	
+
 	public function payment()
 	{
 		return $this->hasMany('Payment');
 	}
-	
+
 }
