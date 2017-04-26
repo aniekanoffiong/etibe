@@ -21,4 +21,4 @@ Route::get('/home', 'HomeController@index');
 
 Route::group(['prefix' => 'api/v1'], function () {
 	Route::get('users', 'UserController@users');
-})
+});
