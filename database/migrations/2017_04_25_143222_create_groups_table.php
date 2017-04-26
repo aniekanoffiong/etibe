@@ -15,12 +15,12 @@ class CreateGroupsTable extends Migration
     {
         Schema::create('groups', function (Blueprint $table) {
             $table->increments('id');
-			$table->string('name');
-			$table->float('amount', 9, 2);
-			$table->string('duration');
-			$table->integer('user_count');
-			$table->date('start_date');
-			$table->timestamps();
+      			$table->string('name');
+      			$table->float('amount', 9, 2);
+      			$table->string('duration');
+      			$table->integer('user_count');
+      			$table->date('start_date');
+      			$table->timestamps();
         });
     }
 
