@@ -125,25 +125,25 @@
             <div class=" col-md-3 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive img-thumbnail" src="../public/images/dave.jpg" alt="">
-                    <h3>Unyime Joseph</h3>
+                    <h3 class="text-success">Unyime Joseph</h3>
                 </a>
             </div>
             <div class="col-md-3 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive img-thumbnail" src="../public/images/dave3.jpg" alt="">
-                    <h3>David Asiru</h3>
+                    <h3 class="text-default">David Asiru</h3>
                 </a>
             </div>
             <div class="col-md-3 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="../public/images/dave2.jpg" alt="">
-                    <h3>Solomon Donatus</h3>
+                    <h3 class="text-info">Solomon Donatus</h3>
                 </a>
             </div>
             <div class="col-md-3 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="../public/images/dave2.jpg" alt="">
-                    <h3>Solomon Donatus</h3>
+                    <h3 class="text-primary">Solomon Donatus</h3>
                 </a>
             </div>
         </div>
