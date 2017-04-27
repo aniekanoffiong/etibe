@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get ('/settings','SettingsController@settings');
+
 Route::get('/home', 'HomeController@index');
 
 Route::group(['prefix' => 'api/v1'], function () {

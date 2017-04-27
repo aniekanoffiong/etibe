@@ -1,0 +1,43 @@
+
+
+#etibe{
+  font-size: 80px;
+  font-family: verdana;
+  width: 100%;
+  margin-left: 0px;
+  background: black;
+  height: 100px;
+  padding-top: 10px;
+  color: white;
+  line-height: 80px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+
+}
+
+#members{
+  font-size: 60px;
+  font-family: verdana;
+  width: 100%;
+  margin-right: 5px;
+  background: black;
+  height: 40px;
+  padding-bottom: 0px;
+  color: grey;
+  line-height: 5px;
+  text-align: right;
+
+}
+table td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    line-height: 30px;
+
+
+}
+ td {
+    padding: 5px;
+    text-align: left;
+  }
+
