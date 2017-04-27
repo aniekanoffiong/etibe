@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/member', 'MemberController@member');
 Route::get('/home', 'HomeController@index');
 
 Route::get('/payment', 'PaymentController@index');

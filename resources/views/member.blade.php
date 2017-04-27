@@ -58,8 +58,8 @@
                              <ul class="nav navbar-nav">
                                 <li class="active"><a href="#">Members</a></li>
                                 <li><a href="#about">Payment Settings</a></li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                <!-- <ul class="dropdown-menu">
+                              <!--   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
                                     <li><a href="#">Create New Group</a></li>
                                     <li><a href="#">Send A User Link</a></li>
                                     <li><a href="#">Delete a user</a></li>
