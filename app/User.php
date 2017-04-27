@@ -6,6 +6,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use App\Group;
 use App\Payment;
+use App\Profile;
 
 class User extends Authenticatable
 {
@@ -40,5 +41,10 @@ class User extends Authenticatable
 	{
 		return $this->hasMany('Payment');
 	}
+
+  public function profile()
+  {
+    return $this->hasOne('Profile');
+  }
 
 }
