@@ -1,22 +1,24 @@
 <?php
 
 namespace App;
-use APP\profile
-use APP\user
+
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
-class profile extends Model
+class Profile extends Model
 {
-    protected $fillable = [
-        'id', 'user_id', 'phone_no' ,'avatar', 
-    ];
-}
+  /**
+   * The attributes that are mass assignable.
+   *
+   * @var array
+   */
+  protected $fillable = [
+      'user_id', 'phone', 'avatar',
+  ];
 
-public function user()
-	{
-		return $this->hasone('profile');
-	}
-public function profile()
-	{
-		return $this->belongsTo('user');
-	}
+  public function user()
+  {
+    return $this->belongsTo('User');
+  }
+
+}
