@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('auth_code')->nullable();
             $table->rememberToken();
             $table->timestamps();
-			$table->primary('id');
+			      $table->primary('id');
         });
     }
 
