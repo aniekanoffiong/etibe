@@ -17,7 +17,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/member', 'MemberController@member');
+Route::get ('/settings','SettingsController@settings');
 Route::get('/home', 'HomeController@index');
+
+Route::get('/payment', 'PaymentController@index');
 
 Route::group(['prefix' => 'api/v1'], function () {
 	Route::get('users', 'UserController@users');
