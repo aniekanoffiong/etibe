@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use App\Group;
 use App\Payment;
 use App\Profile;
+use APP\currentgroup;
 
 class User extends Authenticatable
 {
@@ -45,6 +46,10 @@ class User extends Authenticatable
   public function profile()
   {
     return $this->hasOne('Profile');
+  }
+  public function currentgroup()
+  {
+    return $this->belongsToMany('users');
   }
 
 }

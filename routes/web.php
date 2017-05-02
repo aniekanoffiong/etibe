@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/currentgroup', 'CurrentgroupController@currentgroup');
 Route::get('/member', 'MemberController@member');
 Route::get ('/settings','SettingsController@settings');
 Route::get('/home', 'HomeController@index');
