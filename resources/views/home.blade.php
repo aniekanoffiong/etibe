@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">        
             <div class="col-lg-8 col-lg-offset-10">
-                <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-plus"> create group</span></a><br><br>
+                <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-plus" href="creategroup.blade.php"></a>create group</span></a><br><br>
             </div>
         </div>
     </div>
@@ -18,10 +18,10 @@
                             <div class="panel">
                                 <div class="panel body">
                                     <div class="col-md-4 ">
-                                        <div class="thumbnail" href="#">
+                                        <div class="thumbnail">
                                             <img src="../public/img/sample.jpg" alt=""/>
                                             <div class="caption">
-                                                <center><h4>Richie</h4></center>
+                                                <center><h4><a href="#">Richie</a></h4></center>
                                             </div>
                                         </div>
                                     </div>
